@@ -1,0 +1,12 @@
+E:\Advanced Programming With .Net\Final\N Tier Architecture\NewsWebApplication_MVC_Layer\BLL\bin\Debug\BLL.dll
+E:\Advanced Programming With .Net\Final\N Tier Architecture\NewsWebApplication_MVC_Layer\BLL\bin\Debug\BLL.pdb
+E:\Advanced Programming With .Net\Final\N Tier Architecture\NewsWebApplication_MVC_Layer\BLL\bin\Debug\DAL.dll
+E:\Advanced Programming With .Net\Final\N Tier Architecture\NewsWebApplication_MVC_Layer\BLL\bin\Debug\EntityFramework.dll
+E:\Advanced Programming With .Net\Final\N Tier Architecture\NewsWebApplication_MVC_Layer\BLL\bin\Debug\DAL.pdb
+E:\Advanced Programming With .Net\Final\N Tier Architecture\NewsWebApplication_MVC_Layer\BLL\bin\Debug\DAL.dll.config
+E:\Advanced Programming With .Net\Final\N Tier Architecture\NewsWebApplication_MVC_Layer\BLL\bin\Debug\EntityFramework.xml
+E:\Advanced Programming With .Net\Final\N Tier Architecture\NewsWebApplication_MVC_Layer\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Advanced Programming With .Net\Final\N Tier Architecture\NewsWebApplication_MVC_Layer\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Advanced Programming With .Net\Final\N Tier Architecture\NewsWebApplication_MVC_Layer\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\Advanced Programming With .Net\Final\N Tier Architecture\NewsWebApplication_MVC_Layer\BLL\obj\Debug\BLL.dll
+E:\Advanced Programming With .Net\Final\N Tier Architecture\NewsWebApplication_MVC_Layer\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+@if (TempData["added"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["added"]
+    </div>
+}
+
+@if (TempData["deleted"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["deleted"]
+    </div>
+}
+
+@if (TempData["updated"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["updated"]
+    </div>
+}
+
+<table class="table table-bordered bg-success">
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Category</th>
+        <th>Date</th>
+        <th></th>
+        <th></th>
+        <th></th>
+
+    </tr>
+    @foreach (var category in Model)
+    {
+        <tr>
+            <td>@category.ID</td>
+            <td>@category.Title</td>
+            <td>@category.CategoryID</td>
+            <td>@category.Date</td>
+            <td><a href="/News/NewsDetails/@category.ID" class="btn btn-info">Details</a></td>
+            <td><a href="/News/UpdateNews/@category.ID" class="btn btn-success">Edit</a></td>
+            <td><a href="/News/NewsDelete/@category.ID" class="btn btn-danger">Delete</a></td>
+
+
+        </tr>
+
+    }
+
+</table>

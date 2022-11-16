@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "AddNews";
+}
+
+<h2>Add News</h2>
+
+<form action="" method="post">
+    <input type="text" name="Title" placeholder="Type news title" class="form-control" />
+    <select class="form-control" name="CategoryID">
+        @foreach (var c in ViewBag.categories)
+        {
+            <option value="@c.ID">@c.Name</option>
+        }
+    </select>
+
+
+    <input type="submit" value="Add" class="btn btn-success" />
+</form>
